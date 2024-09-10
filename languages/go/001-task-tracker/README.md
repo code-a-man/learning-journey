@@ -25,8 +25,9 @@ task-tracker update 1 "Buy groceries and cook dinner"
 task-tracker delete 1
 
 # Marking a task as in progress or done
-task-tracker mark-in-progress 1
-task-tracker mark-done 1
+task-tracker mark 1 in-progress
+task-tracker mark 1 done
+task-tracker mark 1 todo
 
 # Listing all tasks
 task-tracker list
